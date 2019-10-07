@@ -1,0 +1,17 @@
+#detailsGallery .img {
+    width: 45%;
+    margin-right: 1em;
+}
+
+a .imgFilter span {
+    display: none;
+}
+a .imgFilter:hover span {
+    display: block;
+}
+
+@media all and (max-width: 768px) {
+	#detailsGallery .img {
+	    width: 100%;
+    }
+}
